@@ -1,0 +1,10 @@
+prefix=/Users/pete/Documents/Cryptovoxels/project-eiffel/prebuilts/libjpeg-turbo/osx-arm64
+exec_prefix=/Users/pete/Documents/Cryptovoxels/project-eiffel/prebuilts/libjpeg-turbo/osx-arm64
+libdir=/Users/pete/Documents/Cryptovoxels/project-eiffel/prebuilts/libjpeg-turbo/osx-arm64/lib
+includedir=/Users/pete/Documents/Cryptovoxels/project-eiffel/prebuilts/libjpeg-turbo/osx-arm64/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 2.1.3
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

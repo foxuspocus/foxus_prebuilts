@@ -1,0 +1,10 @@
+prefix=/migeran/eiffel/project-eiffel/prebuilts/libjpeg-turbo/linux-x86_64
+exec_prefix=/migeran/eiffel/project-eiffel/prebuilts/libjpeg-turbo/linux-x86_64
+libdir=/migeran/eiffel/project-eiffel/prebuilts/libjpeg-turbo/linux-x86_64/lib64
+includedir=/migeran/eiffel/project-eiffel/prebuilts/libjpeg-turbo/linux-x86_64/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 2.1.3
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+libdir=/Users/pete/Documents/Cryptovoxels/EiffelTest/gd_eiffelcam/osx_arm64/libuvc/lib
+includedir=/Users/pete/Documents/Cryptovoxels/EiffelTest/gd_eiffelcam/osx_arm64/libuvc/include
+
+Name: libuvc
+Description: A cross-platform library for USB video devices
+URL: https://github.com/libuvc/libuvc
+Version: 0.0.6
+Libs: -L${libdir} -luvc
+Libs.private: -lusb-1.0 -ljpeg
+Cflags: -I${includedir}
+Requires: libusb-1.0
