@@ -37,4 +37,4 @@ clone_or_update https://github.com/opencv/opencv_contrib.git opencv_contrib e72e
 clone_or_update https://github.com/libusb/libusb.git libusb 4239bc3a50014b8e6a5a2a59df1fff3b7469543b
 clone_or_update https://github.com/libuvc/libuvc.git libuvc d3318ae72a2b916ae352ad0abbbfa2c0990f455e
 clone_or_update ../foxus_libjpeg-turbo.git libjpeg-turbo 384a94728cd003bbcd30a9acfe7b5dfc69c58d90
-clone_or_update ../foxus_profiler.git foxus_profiler ed09fce74771762a38e219fb480138684c4b79d9
+clone_or_update ../foxus_profiler.git foxus_profiler 840fda22d05d6c0851300dd2d9f6e8f31409ecd2
